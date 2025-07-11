@@ -1,0 +1,82 @@
+Bug ID,Reported Date,Module,Summary,Steps to Reproduce,Attachments,Expected Result,Actual Result,Status,Severity,Priority,Found Cycle ,Comments(Developer),Comments(QA)
+Bug_001,09/07/2025,Tasks,"The status of tasks is not updating when we make changes 
+through the APK.",,,The status of tasks should be updated,"The status of tasks is not updating when we 
+make changes through the APK.",Open,High,High,,,
+BUG_002,09/07/2025,Leave,"When we add a leave from the APK and check it on the admin 
+page, it gives an unexpected error related to an SQL query.",,,"Leaves should be displayed on both the APK and
+ the admin panel.","When we add a leave from the APK and check it on 
+the admin page, it gives an unexpected error related 
+to an SQL query.",Open,High,High,,,
+BUG_003,11/07/2025,Dashboard,"Users cannot navigate to the leave section by clicking on the 
+approved leave card from the dashboard.",,,"User should be redirected to leave section by 
+clicking on leave approved card","Users cannot navigate to the leave section by clicking 
+on the approved leave card from the dashboard.",Open,High,High,,,
+BIG_004,11/07/2025,Tasks ,"Tasks that the user changed from APK to completed are not 
+displaying as completed on the admin side.",,,"The status of tasks should be updated in the 
+admin panel as changes are made in the APK.","Tasks that the user changed from APK to completed 
+are not displaying as completed on the admin side.",Open,High,High,,,
+BIG_005,11/07/2025,Dashboard,"When we check the HR section on the dashboard and hover over 
+the ""?"" on the Employee Active card, it displays unexpected text: 
+""messages.employeeActiveInfo.""",,Screenshot by Lightshot,"A description of tab should come on hovering ""?""","When we check the HR section on the dashboard and 
+hover over the ""?"" on the Employee Active card, it 
+displays unexpected text: ""messages.employeeActiveInfo.""",Open,Low,High,,,
+BUG_006,11/07/2025,Attendance,"When we check attendance by member, the data is always the 
+same for every employee.",,Screenshot by Lightshot,"The data for each employee should be clearly 
+detailed.","When we check attendance by member, the data is always the 
+same for every employee.",Open,High,High,,,
+BUG_007,11/07/2025,Attendance,"When we go to a particular date of attendance from the attendance 
+sheet there will be the record of attendance that day and after then 
+we click on add activity button then it display a page with activity 
+there is a messae stating ""modules.attendance.mark_as_leave""","Open admin > attendance section > 
+specific date attendance > Add 
+Activity",Screenshot by Lightshot,"The message should be presented in a simple 
+manner.",not as expected,Open,Low,High,,,
+BUG_008,11/07/2025,Employees,"When we navigate to the ""Add Employee"" section from the admin panel,
+ a form appears for data entry. In this form, hovering over the ""?"" icon 
+next to the passport number displays an unexpected message: 
+""module.employees.passportNumber.""","Open admin > employees >  add 
+employee > hover on ""?""",Screenshot by Lightshot,"The message should be presented in a simple 
+manner.",not as expected,Open,Low,High,,,
+BIG_009,11/07/2025,Employees,"The sorting feature in the appreciation section is not functioning properly
+with regard to the dates provided.",Open admin > employees >  appreciation > sort by date,,Sort function shoul;d work as expected,not as expeted,Open,Medium,Medium,,,
+BIG_010,11/07/2025,Leave,Leave Section is not working just giving an unexpected exception error,open admin > leaves,,Leave page should work properly,Leave Section is not working just giving an unexpected exception error,Open,High,High,,,
+BUG_011,11/07/2025,Leave,"The sorting feature in the Leave balance section is not functioning properly
+with regard to the leaves.",open admin > leaves balance,,Sort function shoul;d work as expected,not as expeted,Open,Medium,Medium,,,
+BUG_012,11/07/2025,Dashboard,"The notification bell icon always shows a notification, even when it is empty.",Open apjk > dashboard,Screenshot by Lightshot,"The notification icon should change to indicate when 
+there are notifications and when there are none.","The notification bell icon always shows a notification, even when it is empty.",Open,Medium,Medium,,,
+BUG_013,11/07/2025,Employees,"There is no validation for any of the input fields such as name , number etc","open admin > employees > add 
+employee",,"There should be validation for each input on their 
+basis","There is no validation for any of the input fields such as name , number etc",Open,High,High,,,
+BIG_014,11/07/2025,Finance,"There is a ""#"" mark in the heading tab for serial numbers",Open admin > Finances,Screenshot by Lightshot,There should be no special character on this place,"There is a ""#"" mark in the heading tab for serial numbers",Open,Low,Medium,,,
+BIG_015,11/07/2025,Tickets,"There is a ""#"" mark in the heading tab for serial numbers",Open admin > tickets,Screenshot by Lightshot,There should be no special character on this place,"There is a ""#"" mark in the heading tab for serial numbers",Open,Low,Medium,,,
+BUG_016,11/07/2025,Learners,There is an unexpected exception coming  when we go to learners section,Open admin > learning > learners,,The page should open without any exception,There is an unexpected exception coming  when we go to learners section,Open,High,High,,,
+BUG_017,11/07/2025,course library,"There is a ""#"" mark in the heading tab for serial numbers",Open admin > learning > course library,Screenshot by Lightshot,There should be no special character on this place,"There is a ""#"" mark in the heading tab for serial numbers",Open,Low,Medium,,,
+BUG_018,11/07/2025,Learner Progress,"There is an unexpected exception coming  when we go to learners progress 
+section",Open admin > learning > learners,,The page should open without any exception,There is an unexpected exception coming  when we go to learners section,Open,High,High,,,
+BIG_019,11/07/2025,Assets,"There is a ""#"" mark in the heading tab for serial numbers",Open admin > assets,Screenshot by Lightshot,There should be no special character on this place,"There is a ""#"" mark in the heading tab for serial numbers",Open,Low,Medium,,,
+BIG_020,11/07/2025,Payroll,"When we attempt to generate payroll by selecting an employee, the payroll 
+does not generate successfully.",Open admin > payroll ,,Payroll should be generated,"When we attempt to generate payroll by selecting an employee,
+ the payroll does not generate successfully.",Open,High,High,,,
+BUG_021,11/07/2025,Payroll,The sorting function is not working for any of the fields in the payroll.,Open admin > payroll ,,Sorting function should work on each field,"The sorting function is not working for any of the fields in the 
+payroll.",Open,Low,High,,,
+BUG_022,11/07/2025,Job Applications,"There is no validation for any of the input fields such as name , number etc 
+in job application","Open admin > Job application > 
+Add Job application",,"There should be validation for each input on their 
+basis","There is no validation for any of the input fields such as name , number etc 
+in job application",Open,Low,Medium,,,
+BIG_023,11/07/2025,Recruit Dashboard,The sorting function is not working for any of the fields in total applications.,Open admin > payroll ,,Sorting function should work on each field,"The sorting function is not working for any of the fields in the 
+payroll.",Open,Low,High,,,
+BUG_024,11/07/2025,Performance,An unexpected exception is coming on kpi and goals page,"Open admin > Performance > KPI 
+and goals",,Page should behave properly,An unexpected exception is coming on kpi and goals page,Open,High,High,,,
+BUG_025,11/07/2025,Nav bar,"When I open the admin panel and select the performance or report subfield, 
+all of the report and performance subfields behave as active, and the tab 
+colors change to blue.","Open admin > select any if report 
+subfield",Screenshot by Lightshot,The page should not behave like this,"When I open the admin panel and select the performance or 
+report subfield, all of the report and performance subfields 
+behave as active, and the tab colors change to blue.",Open,High,High,,,
+BIG_026,11/07/2025,,,,,,,,,,,,
+BUG_027,11/07/2025,,,,,,,,,,,,
+BUG_028,11/07/2025,,,,,,,,,,,,
+BIG_029,11/07/2025,,,,,,,,,,,,
+BUG_030,11/07/2025,,,,,,,,,,,,
+BUG_031,11/07/2025,,,,,,,,,,,,
