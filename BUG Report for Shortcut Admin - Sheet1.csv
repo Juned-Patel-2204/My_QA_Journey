@@ -1,0 +1,22 @@
+Bug ID,Reported Date,Module,Summary,Steps to Reproduce,Attachments,Expected Result,Actual Result,Status,Severity,Priority,Found Cycle ,Comments(Developer),Comments(QA)
+BUG_001,28/05/2025,Admin UI ,"When we log in as an admin, there is
+ an issue with the visibility of the input
+ fields.",Open admin webiste > give login inputs,,Visibility should be good ,not as expected,open,low,high,test_cycle_1,,
+BUG_002,28/05/2025,Admin  ,"User status functionality is not working. When 
+we deactivate a user status from admin, the 
+user should not be able to log in.
+",Open admin >  go to users list > change status,,User status must be changed,not as expected,open,high,high,test_cycle_1,,
+BUG_003,28/05/2025,Admin  ,Search functioality is not working in  users list,Open admin >  go to users list > search user,,User must be found if exist,not as expected,open,high,high,test_cycle_1,,
+BUG_004,28/05/2025,Admin  ,"There is no need to add passowrd in add user 
+section because user always will login with otp",Open admin >  go to users list > add user,,No need of password,,open,suggetion,suggetion,test_cycle_1,,
+BUG_005,28/05/2025,Admin  ,"When we add a user from the admin panel with an 
+active status, an error is displayed.",Open admin >  go to users list > add user,,User should be added,not as expected,open,high,high,test_cycle_1,,
+BUG_006,28/05/2025,Admin  ,"When adding a user from the admin panel with a 
+duplicate mobile number, an error is displayed in
+ the form of an SQL query rather than a user-friendly
+ message.",Open admin >  go to users list > add user,,"an user friendly message should 
+displayed",not as expected,open,high,high,test_cycle_1,,
+BUG_007,28/05/2025,Admin,"User is registering without name field in admin 
+add user section",Open admin >  go to users list > add user,,"The user must not be registered, and 
+a popup stating that a name is required
+ must be displayed.",not as expected,open,high,high,test_cycle_1,,

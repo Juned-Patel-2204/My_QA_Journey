@@ -1,0 +1,17 @@
+Bug ID,Reported Date,Module,Summary,Steps to Reproduce,Attachments,Expected Result,Actual Result,Status,Severity,Priority,Found Cycle ,Comments(Developer),Comments(QA),Column 1
+Bug_001,17/06/2025,Apk,Not supporting full screen mode,Open apk,Record_2025-06-17-10-48-03.mp4 - Google Drive,Should support full screen mode,not as expected,open ,high,high,,,,
+BUG_002,17/06/2025,Apk login,"The color of the font inside the number 
+input box is very light; it must be darker.",Open apk,https://drive.google.com/file/d/19vEvZeeklm1gfPOL_NWaJj1tyLHzBG8K/view?usp=drivesdk,"The font color in the input area should be
+ darker to improve visibility.",not as expected,open ,low,high,,,,
+BUG_003,17/06/2025,Apk login,Otp is not coming on given mobile number,open apk,,OTP must  be sent to  given mobile number,not as expected,open ,high,high,,,,
+BUG_004,17/06/2025,edit profile,There is no validation for length of name,open apk,https://drive.google.com/file/d/19mp2fOlD3k7AiMuA6Nsd74Nrv03z0rOa/view?usp=drivesdk,There must be validation for length of name,not as expected,open ,low,high,,,,
+BIG_005,17/06/2025,edit profile,There is no validation for length of email,open apk,https://drive.google.com/file/d/19pVx5taJ6-7AVAl0HklthPH1YDaCkYwf/view?usp=drivesdk,There must be validation for length of email,not as expected,open ,low,high,,,,
+BUG_006,17/06/2025,edit profile,There is no validation for length of city,open apk,https://drive.google.com/file/d/19pZ4N6_nA1Svs7fz-EQLatUN4hA8wgkv/view?usp=drivesdk,There must be validation for length of city,not as expected,open ,low,high,,,,
+BUG_007,17/06/2025,edit profile,There is no validation for length of state,open apk,https://drive.google.com/file/d/19pZ4N6_nA1Svs7fz-EQLatUN4hA8wgkv/view?usp=drivesdk,There must be validation for length of state,not as expected,open ,low,high,,,,
+BUG_008,17/06/2025,edit profile,There is an inactive field which is showing nothing,open apk,https://drive.google.com/file/d/1A13sMO4Dy2HDomE7qATKNPlVdfXJDUr4/view?usp=drivesdk,Field should show some data,not as expected,open ,low,high,,,,
+BUG_009,17/06/2025,Apk login,"The timer for resending the OTP stops when we leave 
+the app and resumes when we return.",open apk,https://drive.google.com/file/d/1AQIAxUx96kc_fU7QASPc4w3G_gJ6k8e1/view?usp=drivesdk,"The timer should continue running even when 
+we exit the app.",not as expected,open ,low,high,,,,
+BUG_010,17/06/2025,Apk login,"An unwanted error occurs when we give valid otp
+ after the resend otp timer stops",open apk,https://drive.google.com/file/d/1ARB1N-IcqOuxIRHee7-_fYhgJKE5rFfl/view?usp=drivesdk,User should be logged in on giving valid otp,not as expected,open ,high,high,,,,
+BUG_011,17/06/2025,Apk login,An unwanted error occurs when we give valid otp,open apk,https://drive.google.com/file/d/1AZjEW82Mn8fm_OYO8kE_WD2eSkoSBMdX/view?usp=drivesdk,User should be logged in on giving valid otp,not as expected,open ,high,high,,,,

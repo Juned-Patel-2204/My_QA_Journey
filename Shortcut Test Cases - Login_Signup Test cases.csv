@@ -1,0 +1,47 @@
+Test_case_id,Title,Module,Preconditions,Test steps,Test Data,Expected Result,Actual Result,Summary,Status
+TC_001,Registering User,Sign up,,Open apk > click on signup,"Name: Juned Test
+Email: junedpatel22001@gmail.com
+Mobile: 9589542986","User Must be Registered with 
+given credentials",as expected,,pass
+TC_002,"Login Using Valid Mobile 
+Number",Login,User must be registered,Open apk >  click on Login,Mobile: 9589542986,OTP will be sent on given number,as expected,,pass
+TC_003,"Login with invalid or unregistered
+mobile number",Login,,Open apk >  click on Login,Mobile: 9999999999,"User is not registered or the number is
+ invalid. A pop-up message should be
+ displayed.",as expected,,pass
+TC_004,"Mobile number validation by more/
+less digits length",Login,,Open apk >  click on Login,Mobile: 999999999999,"The number must contain 10 digits, and a
+ popup should be displayed if it doesn't.",as expected,,pass
+TC_005,Login with blank output,Login,,Open apk >  click on Login,blank,"The number must contain 10 digits, and a
+ popup should be displayed if it doesn't.",as expected,,pass
+TC_006,Signup button visibility,Login,,Open apk >  click on Login,,Sign up button must be visible,as expected,,pass
+TC_007,Sign up button functionality,Login,,"Open apk >  click on Login >
+click on signup",,Should redirect to signup page.,as expected,,pass
+TC_008,Scroll ,Login,,Open apk >  click on Login,,"There should no scroll effect on login page 
+without otp",not as expected,,failed
+TC_009,"Mobile number validation by more/
+less digits length",Signup,,Open apk >  click on Login,Mobile: 999999999999,"The number must contain 10 digits, and a
+ popup should be displayed if it doesn't.",as expected,,pass
+TC_010,Sign in button visibility,Signup,,Open apk >  click on Signup,,Sign in button must be visible,as expected,,pass
+TC_011,Sign in button functionality,Signup,,Open apk > click on signup,,Should redirect to sign in page.,as expected,,pass
+TC_012,"Registering with duplicate 
+email id",Signup,,Open apk > click on signup,"Name: Juned Test
+Email: junedpatel22001@gmail.com
+Mobile: 9589542986","A pop-up message stating ""User already
+ registered do login"" must be displayed.",as expected,,pass
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Test_case_id,Title,Module,Preconditions,Test steps,Test Data,Expected Result,Actual Result,Summary,Status
+TC_001,Login with Valid OTP,Login OTP,User must be registered,"Open apk > click on Login > give
+valid Credential > valid otp",,User must be logged in,as expected,,pass
+TC_002,Login with Expired  OTP,Login OTP,User must be registered,"Open apk > click on Login > give
+valid Credential > expired otp",,"A pop-up message stating ""The OTP 
+is incorrect"" must be displayed.",not as expected,,failed
+TC_003,Resend otp working,Login OTP,User must be registered,"Open apk > click on Login > give
+valid Credential > click on resend
+otp",,Will resend otp on given mobile number,as expected,,pass
+TC_004,Login with invalid OTP,Login OTP,User must be registered,"Open apk > click on Login > give
+valid Credential > invalid otp",,"A pop-up message stating ""The OTP 
+is incorrect"" must be displayed.",as expected,,pass

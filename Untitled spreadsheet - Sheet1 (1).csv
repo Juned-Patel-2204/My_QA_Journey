@@ -1,0 +1,33 @@
+Bug ID,Reported Date,Module,Summary,Steps to Reproduce,Attachments,Expected Result,Actual Result,Status,Severity,Priority,Found Cycle ,Comments(Developer),Comments(QA)
+BUG_001,11/06/2025,Orders,"When we check the order list in the orders section, there is
+ an option to display 10 orders per page, but it only shows 3
+ orders instead.",Open admin website > Go to orders section,,Each page must display a total of 10 orders.,not as expected,open,high,high,test cycle 1,,
+BUG_002,11/06/2025,Orders,"When checking the order list in the orders section, changing the
+ page number or going to the next page does not work and displays 
+only the loding texr.","Open admin website > Go to orders section > 
+click on page 2",,next page orders should come,not as expected,open,high,high,test cycle 1,,
+BUG_003,11/06/2025,Orders,"When we sort orders by the latest date, it shows the 29th of last month,
+ but we have an order for 10/06/25. Therefore, the sorting by date is not 
+working.","Open admin website > Go to orders section > 
+click on page 2",,"Sorting must be done correctly with respect to the 
+date.",not as expected,open,low,high,test cycle 1,,
+BUG_004,11/06/2025,Sellers,"When we try to update the seller's mobile number, it does not get updated.","Open admin website > Go to sellers section > 
+update mobile number of seller",,Mobile number should be updated,not as expected,open,high,high,test cycle 1,,
+BUG_005,11/06/2025,Products,"When we manage products and click the view icon of a particular product,
+ it just refreshes the page instead of displaying the product information.","Open admin website > go to products section
+> click on view icon",,"A new page displaying information about a specific
+ product should be created.",not as expected,open,low,high,test cycle 1,,
+BUG_006,11/06/2025,products,"When we update a product in the product section, the seller's commission 
+is initially empty.","Open admin website > go to products section
+> update product",,Commission must be there when updating product ,not as expected,open,low,high,test cycle 1,,
+BUG_007,11/06/2025,Delivery Boys,"When managing the delivery boy section, it shows a list of delivery boys.
+ However, when attempting to sort by date, it displays ""no matching data 
+found.""","open admin website > go to delivery boys 
+section >  manage delivery boys > sort by date",,"Sorting must be done correctly with respect to the 
+date.",not as expected,open,low,high,test cycle 1,,
+BUG_006,11/06/2025,Delivery Boys,"When we update the delivery boys' information, it doesn't work; it just shows 
+""please wait.""","open admin website > go to delivery boys 
+section >  manage delivery boys > update info",,Delivery boys info must be updated,not as expected,open,high,high,test cycle 1,,
+BUG_006,11/06/2025,,,,,,,,,,,,
+BUG_006,11/06/2025,,,,,,,,,,,,
+BUG_007,11/06/2025,,,,,,,,,,,,

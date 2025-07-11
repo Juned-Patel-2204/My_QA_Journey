@@ -1,0 +1,42 @@
+Bug ID,Reported Date,Module,Summary,Steps to Reproduce,Attachments,Expected Result,Actual Result,Status,Severity,Priority,Found Cycle ,Comments(Developer),Comments(QA)
+Bug_001,25/06/2025,Login,"If we log in with an unregistered mobile number, it does not show 
+any message to register first and send an OTP to the number. After
+ we enter a valid OTP, it logs in the user.","open apk > login with unregistered 
+number",https://drive.google.com/file/d/1DQWQ2enlnr0l4RK86b94jhKuuDiYR89w/view?usp=drivesdk,"""A message should appear stating 
+either 'Please register first' or 'User
+ not registered'.""",not as expected,closed,High,High,test_cycle_1,,
+BUG_002,25/06/2025,Login,The scroll length for the form is too long.,open apk > go to login,https://drive.google.com/file/d/1DdnEReQrAuk_5TxcmePYGqK9tWWxHrAd/view?usp=drivesdk,The  scroll length should be fixed,not as expected,Open,Low,Low,test_cycle_1,,
+BUG_003,25/06/2025,Login,"After logging out and removing the app from recent apps, when
+ reopened, the user is automatically logged in.","open apk > login > remove > remove from
+recents > reopen",https://drive.google.com/file/d/1DgcpK5ngnBxVsW89KOfR8I3O8BAvriS8/view?usp=drivesdk,User should be properly logged out,not as expected,Open,High,High,test_cycle_1,,
+BIG_004,25/06/2025,Login,Resend otp is not working,open apk > go to login,,Resend otp should work,not as expected,Open,High,High,test_cycle_1,,
+BIG_005,25/06/2025,Profile,"Profile information does not update as expected based on the information
+ provided during signup.",open apk > login > Profile,https://drive.google.com/file/d/1Dv9JtS09vgYRJwQJUIbFlHGr0tHbzC5N/view?usp=drivesdk,"Profile information must be updated as 
+information given at the time of signup ",not as expected,Open,High,High,test_cycle_1,,
+BUG_006,25/06/2025,apk,Full screen mode is not supported,open apk,https://drive.google.com/file/d/1DxlDQflVLtkeYPS_J0tRvV9EcN_uuEXQ/view?usp=drivesdk,Full screen mode should be supported,not as expected,Open,Low,High,test_cycle_1,,
+BUG_007,25/06/2025,Login,"After logging in when we press back button then we are redirecting to login 
+page and eventually we are logout",open apk > signup >go back,https://drive.google.com/file/d/1E--08jmBPSaeGgmn8J5WGHGZ_DVIrBda/view?usp=drivesdk,"After signing in, we can't go directly to the 
+signup page; we must log out first.",not as expected,closed,High,High,test_cycle_1,,
+BUG_008,25/06/2025,Home,In prayers timing section on behalf of icons it is better to write Prayer name,open apk > home,,Icons should be replaced by prayer names,not as expected,Open,Low,Low,test_cycle_1,,
+BIG_009,25/06/2025,Home,The spelling of Dhikr is wrong,open apk > home,,Spelling must be correct,not as expected,closed,Low,High,test_cycle_1,,
+BIG_010,26/06/2025,apk,Multiple languages are not completely supported,open apk,https://drive.google.com/file/d/1EoidAX6cYBEd-v5Rb_WZtu5P_Zop2GJM/view?usp=drivesdk,Multiple language should completely supported,not as expected,Open,High,High,test_cycle_1,,
+BUG_011,26/06/2025,otp,"The heding stating ""Enter 6 digit verifiaction code sent to your phone number"" is 
+not in center",open apk > go to login > otp page,https://drive.google.com/file/d/1Ewo2NmppTpMM8vsVm7fR5l_MjXlkCsjM/view?usp=drivesdk,The heading must be in center,not as expected,Open,Low,High,test_cycle_1,,
+BUG_012,26/06/2025,otp,No space between otp and phone text,open apk > go to login > otp page,https://drive.google.com/file/d/1Ewo2NmppTpMM8vsVm7fR5l_MjXlkCsjM/view?usp=drivesdk,There should be space between two fields,not as expected,Open,Low,High,test_cycle_1,,
+BUG_013,26/06/2025,Profile,"When we update the profile picture, it does not get updated.",open apk > login > Profile > update picture,https://drive.google.com/file/d/1F1tOz2P8j6F6wyALXjgIP-m0nLknBjzq/view?usp=drivesdk,The profile picture should be updated whenever the user changes it.,not as expected,Open,High,High,test_cycle_1,,
+BIG_014,26/06/2025,Nearby Mosque,Nearby Mosques are not coming,open apk > home > Nearby Mosque,https://drive.google.com/file/d/1F3GF5dZOlBgiw73ZU9tmeYw4DKcWrrNU/view?usp=drivesdk,Nearby Mosque should come on the basis of location ,not as expected,Open,High,High,test_cycle_1,,
+BIG_015,26/06/2025,Nearby Mosque,"There will be only one name for the masjid in the APK; it should either be ""masjid"" 
+or ""mosque,"" not both.",open apk > home > Nearby Mosque,https://drive.google.com/file/d/1F3GF5dZOlBgiw73ZU9tmeYw4DKcWrrNU/view?usp=drivesdk,"There will be only one name for the masjid in the 
+APK; it should either be ""masjid"" or ""mosque,"" not
+ both.",not as expected,Open,Low,High,test_cycle_1,,
+BUG_016,26/06/2025,Category,"The spelling of ""restaurant"" is incorrect in the category section.",open apk >  category,https://drive.google.com/file/d/1FDi1Z4YiGZyp54pPNJcy6bjX_Pw2OJXF/view?usp=drivesdk,Spelling must be correct,not as expected,Open,Low,High,test_cycle_1,,
+BUG_017,26/06/2025,Category,There is a spelling error in Nearby masjid in all category section,open apk >  category,https://drive.google.com/file/d/1FDi1Z4YiGZyp54pPNJcy6bjX_Pw2OJXF/view?usp=drivesdk,Spelling must be correct,not as expected,Open,Low,High,test_cycle_1,,
+BUG_018,26/06/2025,Category,There is no category for dhikr in all categories,open apk >  category,https://drive.google.com/file/d/1FDi1Z4YiGZyp54pPNJcy6bjX_Pw2OJXF/view?usp=drivesdk,"The must be all categories available in all category
+ section",not as expected,Open,High,High,test_cycle_1,,
+BIG_019,26/06/2025,Zakat calculator,"There will be a minimum amount of assets of user, on which zakat will be 
+calculated",open apk > zakat calculator,,"There will be a minimum amount of assets of user, on which zakat will be 
+calculated",not as expected,Open,Medium,High,test_cycle_1,,
+BIG_020,26/06/2025,Tasbih count,Tasbih count in profile is not dynamic,open apk > profile,https://drive.google.com/file/d/1FF9QC2746GZqxgRAwKgi0DiWiZ_vaXHz/view?usp=drivesdk,Tasbih count should be dynamic,not as expected,Open,High,High,test_cycle_1,,
+BUG_021,26/06/2025,Today's Prayer,Today's prayer in profile is not dynamic,open apk > profile,https://drive.google.com/file/d/1FfTBE1VK3JvFyhFTOEifBxkdZzZmpNpr/view?usp=drivesdk,Today's prayer should be dynamic,not as expected,Open,High,High,test_cycle_1,,
+BUG_022,26/06/2025,Profile,"The spelling of ""referral"" is incorrect in the personal information form, specifically
+ in the referral code section.",open apk > profile,https://drive.google.com/file/d/1FfTBE1VK3JvFyhFTOEifBxkdZzZmpNpr/view?usp=drivesdk,Spelling must be correct,not as expected,Open,Low,High,test_cycle_1,,

@@ -1,0 +1,151 @@
+Bug ID,Reported Date,Module,Summary,Steps to Reproduce,Attachments,Expected Result,Actual Result,Status,Severity,Priority,Found Cycle ,Comments(Developer),Comments(QA)
+Bug_001,08/07/2025,Signup,There is no length validation for the mobile number input.,Open apk > go to signup,,"The maximum length for number
+ input should be 15 digits.","There is no length validation for
+the mobile number input.",Open,Medium,Medium,,,
+BUG_002,08/07/2025,Signup,"The minimum number of digits for a mobile number is 7 in input,
+ but some countries actually have mobile numbers with only 4 digits.",Open apk > go to signup,,"The minimum digits of a mobile number
+ should be 4, as it is for a global app.","The minimum number of digits for a
+ mobile number is 7 in input, but some 
+countries actually have mobile numbers 
+with only 4 digits.",Open,High,High,,,
+BUG_003,08/07/2025,Signup,"There is no age validation, as the date of birth can only be two days 
+before today.",Open apk > go to signup,,"There should be a validation process in the 
+date of birth section to ensure that the user
+ meets the minimum age requirement.","There is no age validation, as the date of 
+ birth can only be two days before today.",Open,High,High,,,
+BIG_004,08/07/2025,Signup,"Signing up with an already registered mobile number but using a 
+different country code results in an unexpected error stating that
+ something went wrong.",Open apk > go to signup,,"Signing up with an already registered mobile
+ number with different country code should be 
+treated as a new mobile number","Signing up with an already registered mobile 
+number but using a different country code 
+results in an unexpected error stating that
+something went wrong.",Open,High,High,,,
+BIG_005,08/07/2025,Signup,"Signing up with an already registered mobile number  results in an 
+unexpected error stating that something went wrong.",Open apk > go to signup,,"""Signing up with a previously registered mobile 
+number should display a message indicating 
+that the user is already registered.""","Signing up with an already registered mobile
+number  results in an unexpected error stating
+that something went wrong.",Open,High,High,,,
+BUG_006,08/07/2025,Login,"There is no option to select the country code for the mobile number in 
+the login section.",Open apk > go to login,,"There should be a optioin for counttry code in 
+login section","There is no option to select the country code for
+ the mobile number in the login section.",Open,High,High,,,
+BUG_007,08/07/2025,Login,"When we log in with a registered mobile number and enter a valid OTP, 
+a message appears stating that the mobile number or email address is
+incorrect, and the screen goes completely blank.",Open apk > go to login,,"User must be logged in with registered mobile 
+number","When we log in with a registered mobile number 
+and enter a valid OTP, a message appears stating 
+that the mobile number or email address is
+incorrect, and the screen goes completely blank.",Open,High,High,,,
+BUG_008,08/07/2025,Profile,"When we update a user's personal information, a message appears stating 
+""user profile"" instead of ""user information updated.""","Open apk > go to profile > update 
+information  ",,"Message should state ""User information updated"" ","When we update a user's personal information, a 
+message appears stating ""user profile"" instead of 
+""user information updated.""",Open,Low,Medium,,,
+BIG_009,08/07/2025,Dashboard,"When we update user information and comes to dashboard and refresh page 
+but on dashboard the information is not updasting","Open apk > go to profile > update 
+information  >  refresh dashboard",,"User informations must be updated on dashboard 
+after doing refresh, ones it is updated from profile","When we update user information and comes to 
+dashboard and refresh page but on dashboard 
+the information is not updasting",Open,High,High,,,
+BIG_010,08/07/2025,Dashboard,"When we do check in, if we remove the app from recent and then reopen it, 
+the check-in time always shows 6:45.","open apk > go to dashboard  > check in > 
+remove from recent  >  reopen it",,"The check-in time should always reflect the actual 
+time we check in.","When we do check in, if we remove the app from
+recent and then reopen it, the check-in time 
+always shows 6:45.",Open,High,High,,,
+BUG_011,08/07/2025,Education,In education section the information  comes out of the card ,"Open apk > go to profile > update 
+education",,The information should'nt overflow from card,In education section the information  comes out of the card ,Open,High,High,,,
+BUG_012,08/07/2025,Education,"When we update the education degree in the education section, the update 
+does not work; it just keeps loading.","Open apk > go to profile > update 
+education",,"The update function must works when we update
+education","When we update the education degree in the 
+education section, the update does not work;
+ it just keeps loading.",Open,High,High,,,
+BUG_013,08/07/2025,Education,"When we add a degree, if we include the same period or an interval between 
+the previous degrees, both degrees are counted.","Open apk > go to profile > update 
+education",,Two degrees must have different time periods.,"When we add a degree, if we include the same period 
+or an interval between the previous degrees, both 
+degrees are counted.",Open,High,High,,,
+BIG_014,08/07/2025,Education,Two degrees cannot be considered as the highest qualification.,"Open apk > go to profile > update 
+education",,"Two degrees cannot be considered as the highest
+ qualification.","Two degrees cannot be considered as the 
+highest qualification.",Open,High,High,,,
+BIG_015,08/07/2025,Experience,"When we add an experience in the experience section, a message appears 
+stating ""employee.experienceEmployee.experience"" instead of ""User 
+experience added.""",Open apk > go to profile >  add experience,,"Message stating ""User experience  added"" should 
+come","When we add an experience in the experience section, 
+a message appears stating ""employee.experienceEmployee.experience""
+ instead of ""User experience added.""",Open,Low,High,,,
+BUG_016,08/07/2025,Experience,"When we add two experiences, we can list both as currently working, but in 
+reality, we should not be allowed to do so.",Open apk > go to profile >  add experience,,"User should'nt be allowed to add two experiences as
+currently working","When we add two experiences, we can list both as currently working, but
+in reality, we should not be allowed to do so.",Open,High,High,,,
+BUG_017,08/07/2025,Experience,"The validation length for company names is too short; adding 15 more 
+characters would be beneficial.",Open apk > go to profile >  add experience,,"The validation length for company names is too short; 
+adding 15 more characters would be beneficial.","The validation length for company names is too short; adding 15 more 
+characters would be beneficial.",Open,High,High,,,
+BUG_018,08/07/2025,Experience,"The validation length for Job title is too short; adding 10 more 
+characters would be beneficial.",Open apk > go to profile >  add experience,,"The validation length for Job title is too short; adding 
+10 more characters would be beneficial.","The validation length for Job title is too short; adding 10 more 
+characters would be beneficial.",Open,High,High,,,
+BIG_019,08/07/2025,Experience,User should not be allowed to add experience starting tomorrow or later.,Open apk > go to profile >  add experience,,"User should not be allowed to add experience 
+starting tomorrow or later.","Users can add their experience with a starting date that is set for today 
+or any day in the future.",Open,High,High,,,
+BIG_020,08/07/2025,Emergency Contact,"User is unable to update the emergency contact mobile number once after 
+adding it.","Open apk > go to profile >  update mobile 
+number in emergency contact",,"Users should be able to update the mobile number of 
+their emergency contact after it has been added.","User is unable to update the emergency contact mobile number once 
+after adding it.",Open,High,High,,,
+BUG_021,08/07/2025,Emergency Contact,"When we add an emergency contact, a message appears stating 
+""employee education added successfully."" instead of ""emergency contact 
+added successfully.""","Open apk > go to profile > add in emergency
+ contact",,"Message should state ""Emergency contact added 
+successfully.""","When we add an emergency contact, a message appears stating 
+""employee education added successfully."" instead of ""emergency contact 
+added successfully.""",Open,Low,High,,,
+BUG_022,08/07/2025,Emergency Contact,"When we update an emergency contact, a message appears stating 
+""employee contact add success."" instead of ""emergency contact 
+updated successfully.""","Open apk > go to profile > update emergency
+ contact",,"Message should state ""Emergency contact updated
+successfully.""","When we update an emergency contact, a message appears stating 
+""employee contact add success."" instead of ""emergency contact 
+updated successfully.""",Open,Low,High,,,
+BIG_023,09/07/2025,Salary,"In the salary section, when we update the bank account holder's name, using 
+two spaces after any alphabetic character results in a ""."" (dot character) 
+added.","Open apk > go to profile > salary > update 
+bank",,"Space should be treated as only space not any other 
+character","In the salary section, when we update the bank account holder's name, using 
+two spaces after any alphabetic character results in a ""."" (dot character) 
+added.",Open,Low,Low,,,
+BUG_024,09/07/2025,Salary,"The maximum length of a bank account number is 17 characters, but according 
+to international standards, it can be up to 34 characters.","Open apk > go to profile > salary > update 
+bank",,"Maximum length of a bank should be 34 as IBAN 
+standards","The maximum length of a bank account number is 17 characters, but according 
+to international standards, it can be up to 34 characters.",Open,Low,High,,,
+BUG_025,09/07/2025,Leave,"When we add a leave from the APK and check the admin panel, it gives an 
+unexpected exception related to some SQL queries.",Open apk > go to profile > add leave,,Leave application should be displayed on admin panel,"When we add a leave from the APK and check the admin panel, it gives an 
+unexpected exception related to some SQL queries.",Open,High,High,,,
+BIG_026,09/07/2025,Leave ,"When we add leave from the admin panel, it is not displayed in the APK leave 
+section.",Open admin > go to profile > add leave,,"Leave should be displayed on both admin panel and 
+apk lleave section","When we add leave from the admin panel, it is not displayed in the APK leave section.",Open,High,High,,,
+BUG_027,09/07/2025,Leave,"When we apply for leave in APK and submit it, a message appears saying ""leave 
+applied successfully,"" but the screen continues to load without displaying any 
+data.",Open apk > go to profile > add leave,,Leave should be displayed on screen,"When we apply for leave in APK and submit it, a message appears saying 
+""leave applied successfully,"" but the screen continues to load without 
+displaying any data.",Open,High,High,,,
+BUG_028,09/07/2025,Language,Language change is not completely supported,Open apk> go to profile > change language,,Language should be completely supported,Language change is not completely supported,Open,High,High,,,
+BIG_029,09/07/2025,Tasks,The data is overflowing from task card in tasks section,Open apk > go to tasks,,Data must come inside  boundaries of card,The data is overflowing from task card in tasks section,Open,Low,High,,,
+BUG_030,09/07/2025,Tasks,"The number of comments is not functioning as expected, meaning it does not 
+change as required.",Open apk > go to tasks,,The number of comments should be correct,"The number of comments is not functioning as expected, meaning it does not 
+change as required.",Open,Low,Medium,,,
+BUG_031,09/07/2025,Tasks,"The number of employees working on task is not functioning as expected, 
+meaning it does not change as required.",Open apk > go to tasks,,The number of employees should be correct,"The number of employees working on task is not functioning as expected, 
+meaning it does not change as required.",Open,Low,Medium,,,
+BIG_032,09/07/2025,Tasks,The task status is not updating in the APK dashboard.,Open apk > go to tasks,,Tasks status should be updated on dashboard,The task status is not updating in the APK dashboard.,Open,Medium,High,,,
+BUG_033,09/07/2025,,,,,,,,,,,,
+BUG_034,09/07/2025,,,,,,,,,,,,
+BIG_035,09/07/2025,,,,,,,,,,,,
+BUG_036,09/07/2025,,,,,,,,,,,,
+BUG_037,09/07/2025,,,,,,,,,,,,

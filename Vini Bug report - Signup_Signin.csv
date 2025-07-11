@@ -1,0 +1,48 @@
+Bug ID,Reported Date,Module,Summary,Steps to Reproduce,Attachments,Expected Result,Actual Result,Status,Severity,Priority,Found Cycle ,Comments(Developer),Comments(QA)
+Bug_001,23/06/2025,SignUp,"On the signup page, when we select the country 
+code for the mobile number, the code is not visible
+ only ""..."" is displayed.","open apk > go to signup page >
+select country code",https://drive.google.com/file/d/1C1vQ-hDqjfqfT55jInpFUobY_o6jNTdO/view?usp=drivesdk,The country code must be visible,not as expected,open,high,high,,,
+BUG_002,23/06/2025,Signup,"When we send an OTP to register a mobile number,
+ the message says the OTP comes from MyTop10Store.","open apk > go to signup page >
+select mobile number",https://drive.google.com/file/d/1C36wTqHEe1NNfDN_qxYniAbGKannF7EI/view?usp=drivesdk,The otp should say it comes from vini app,not as expected,open,low,high,,,
+BUG_003,23/06/2025,Signup,"When we provide our mobile number to receive an OTP and 
+click on ""Send OTP,"" if we then remove the application from
+ the recent apps list and reopen it, we are automatically 
+logged in using the provided number, without needing to
+ enter the OTP. Additionally, there is no option to log out of 
+the application.","open apk > go to signup page >
+select mobile number > send otp >
+remove app from recent >reopen it",https://drive.google.com/file/d/1CQAadPQpJF22Yng92IYujPC4IJ7UhGwq/view?usp=drivesdk,"Application should not logged in without 
+correct otp",not as expected,open,high,high,,,
+BUG_004,23/06/2025,Signup,"When a user is already registered and attempts to sign up with
+ the same number, they are logged in using an OTP.","open apk > go to signup page >
+select registered mobile number",,"A message should say that the user is
+ already registered.",not as expected,open,low,high,,,
+BIG_005,23/06/2025,Signup,"When we provide a mobile number and click on ""send OTP,"" if we 
+click on ""resend OTP,"" it shows a message stating to resend OTP 
+after 60 seconds. However, every time we click on resend, it
+ always displays the same 60-second message.","open apk > go to signup page >
+select mobile number > send otp > 
+resend otp",https://drive.google.com/file/d/1CfuEzG_zbidzfczUFhBchK2to4KwtsFB/view?usp=drivesdk,Timer should always change with time,not as expected,open,low,low,,,
+BUG_006,23/06/2025,Signup,"When we enter a mobile number and click on ""Send OTP,"" if we then 
+click on ""Resend OTP,"" a message appears stating that we can resend
+ the OTP after 60 seconds. However, after 60 seconds, nothing 
+happens, and it appears that the feature is not working.","open apk > go to signup page >
+select mobile number > send otp > 
+resend otp",https://drive.google.com/file/d/1CfuEzG_zbidzfczUFhBchK2to4KwtsFB/view?usp=drivesdk,Resend otp should work properly,not as expected,open,high,high,,,
+BUG_007,23/06/2025,Signup,There is no length validation for usernames during the signup process.,"open apk > go to signup page >
+select mobile number >enter valid otp > 
+give username & email",https://drive.google.com/file/d/1ChnNaVd2i1kdiTMP5zy_2KKItvFuwJ25/view?usp=drivesdk,There should be length validation for username,not as expected,open,low,low,,,
+BUG_008,23/06/2025,Signup,There is no length validation for email during the signup process.,"open apk > go to signup page >
+select mobile number >enter valid otp > 
+give username & email",https://drive.google.com/file/d/1ChnNaVd2i1kdiTMP5zy_2KKItvFuwJ25/view?usp=drivesdk,There should be length validation for username,not as expected,open,low,low,,,
+BIG_009,23/06/2025,Signin,"When we sign in and provide the registered number, it displays a message
+ saying ""OTP sent and login successfully,” but it should only state ""OTP 
+sent"".","open apk > go to signup page >
+enter mobile number",,Message should only say otp sent,not as expected,open,low,low,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,/,/,,,,,,,,,,,

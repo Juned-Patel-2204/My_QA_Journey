@@ -1,0 +1,164 @@
+Test Case ID,Test Case Title.,Preconditions,Test Case Steps,Test Data,Expected Result,Actual Result,Status
+TC_HP_01,UI Design,NA,Open Website,NA,"Figma Design and Actual 
+match exactly",As expected,Pass
+TC_HP_02,"Verify search functionality
+works",NA,"Open Website > Click on search bar
+ > search products",T-shirts,"Products with T shirt will 
+displayed",As expected,Pass
+TC_HP_03,"Featured Products link
+works",NA,"Open Website > Click on  any of 
+featured product",NA,"Product detail page 
+should  open",As expected,Pass
+TC_HP_04,Nav Links works,NA,Open Website > Click on any Nav links,NA,Redirect to the other page,As expected,Pass
+TC_HP_05,Footer Links Works,NA,Open Website > Click on any Footer links,NA,Redirect to the other page,As expected,Pass
+TC_HP_06,Brand logo visiblity,NA,Open Website,NA,Brand logo should be visible,As expected,Pass
+TC_HP_07,wishlist button visiblity,NA,Open Website,NA,Wishlist logo should be visible,As expected,Pass
+TC_HP_08,"Wishlist button clickable 
+without Login",NA,Open Website > Click Wishlist logo,NA,Redirected to login page,As expected,Pass
+TC_HP_09,Cart logo visiblity,NA,Open Website ,NA,Cart logo should be visible,As expected,Pass
+TC_HP_10,"Cart logo clickable 
+without Login",NA,Open Website > click on cart logo,NA,Shouls redirect to login page,As expected,Pass
+TC_HP_11,Carousel Working ,NA,Open Website,NA,Carousel should work properly ,As expected,Pass
+TC_HP_12,"Featured Products Card
+clickable",NA,"Open Website > click on cards of 
+products",NA,Should redirect to products page,As expected,Pass
+TC_HP_13,Discount visibility,NA,Open Website ,NA,"discount should be visible on 
+product",As expected,Pass
+TC_HP_14,Rating visibility,NA,Open Website,NA,"Ratings must be displayed in 
+products card",As expected,Pass
+TC_HP_15,"wishlist logo visiblity inside
+product card",NA,Open Website,NA,"Wishlist logo must be visible
+inside product cards",As expected,Pass
+TC_HP_16,Wishlist logo clicable,NA,"Open Website > click on wishlist logo 
+in card",NA,"wishlist added logo should visible 
+and product will be added in wishlist",As expected,Pass
+TC_HP_17,Hovering effect on card,NA,Open Website > Hover on card,NA,Hovering effect must be visible,As expected,Pass
+TC_HP_18,"Cards Change side buttons 
+visiblity",NA,Open Website ,NA,"on side of card list swipe buttons 
+should be visible",As expected,Pass
+TC_HP_19,Buttons functions correctly,NA,"Open Website > click on card list change 
+button",NA,"Card list must be changed with a 
+good effect",As expected,Pass
+TC_HP_20,Categories Must be visible,NA,Open Website,NA,"Different categoried card must be 
+visible",As expected,Pass
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+Test Case ID,Test Case Title,Preconditions,Test Case Steps,Test Data,Expected Result,Actual Result,Status
+TC_MN_01,UI Design,NA,Open Website,NA,"Figma Design and Actual 
+match exactly",As expected,Pass
+TC_MN_02,"Verify search functionality
+works",NA,"Open Website > Click on search bar
+ > search products",T-shirts,"Products with T shirt will 
+displayed",As expected,Pass
+TC_MN_03,"Featured Products link
+works",NA,"Open Website > Click on  any of 
+featured product",NA,"Product detail page 
+should  open",As expected,Pass
+TC_MN_04,Nav Links works,NA,Open Website > Click on any Nav links,NA,Redirect to the other page,As expected,Pass
+TC_MN_05,Footer Links Works,NA,Open Website > Click on any Footer links,NA,Redirect to the other page,As expected,Pass
+TC_MN_06,Brand logo visiblity,NA,Open Website,NA,Brand logo should be visible,As expected,Pass
+TC_MN_07,wishlist button visiblity,NA,Open Website,NA,Wishlist logo should be visible,As expected,Pass
+TC_MN_08,"Wishlist button clickable 
+without Login",NA,Open Website > Click Wishlist logo,NA,Redirected to login page,As expected,Pass
+TC_MN_09,Cart logo visiblity,NA,Open Website ,NA,Cart logo should be visible,As expected,Pass
+TC_MN_10,"Cart logo clickable 
+without Login",NA,Open Website > click on cart logo,NA,Shouls redirect to login page,As expected,Pass
+TC_MN_11,"Featured Products Card
+clickable",NA,"Open Website > click on cards of 
+products",NA,Should redirect to products page,As expected,Pass
+TC_MN_12,Discount visibility,NA,Open Website ,NA,"discount should be visible on 
+product",As expected,Pass
+TC_MN_13,Rating visibility,NA,Open Website,NA,"Ratings must be displayed in 
+products card",As expected,Pass
+TC_MN_14,"wishlist logo visiblity inside
+product card",NA,Open Website,NA,"Wishlist logo must be visible
+inside product cards",As expected,Pass
+TC_MN_15,Wishlist logo clicable,NA,"Open Website > click on wishlist logo 
+in card",NA,"wishlist added logo should visible 
+and product will be added in wishlist",As expected,Pass
+TC_MN_16,Hovering effect on card,NA,Open Website > Hover on card,NA,Hovering effect must be visible,Not expected,Fail
+TC_MN_17,Sort section visibility,NA,Open Website> Men section,NA,Sort section must be displayed,As expected,Pass
+TC_MN_18,Sort section functionality,NA,Open Website >  click on sort section,NA,Must sort products on preference,As expected,Pass
+TC_MN_19,Filters section visibility,NA,Open website > Men Section,NA,"Filters section must be displayed on 
+left side",As expected,Pass
+TC_MN_20,Filters by category,NA,"Open website > Men Section > Filters > 
+select category",T-shirts,"only products with t shirt category 
+should be displayed",As expected,Pass
+TC_MN_21,Filters by Sizes,NA,"Open website > Men Section > Filters > 
+select size",XL,"only products with size xl 
+should displayed ",As expected,Pass
+TC_MN_22,Filters by brand,NA,"Open website > Men Section > Filters > 
+select brand",Bewakoof,"only products with brand bewakoof
+should displayed ",As expected,Pass
+TC_MN_23,Filters by color,NA,"Open website > Men Section > Filters > 
+select color",Black,"only products with color black
+should displayed ",As expected,Pass
+TC_MN_24,Top button visibility,NA,Open website > Men Section ,NA,Top button must be visible,As expected,Pass
+TC_MN_25,Top button functionality,NA,"Open website > Men Section > click on 
+top button",NA,"on clicking top button redirected to top
+of the page",As expected,Pass
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+Test Case ID,Test Case Title,Preconditions,Test Case Steps,Test Data,Expected Result,Actual Result,Status
+TC_PD_01,Product image visibility,NA,Open website > click on featured product,NA,Main image must be visible in big size,As expected,Pass
+TC_PD_02,Product image list visibility,NA,OPen website > click on featured product,NA,"A horizontal list must be visible of 
+product images",As expected,Pass
+TC_PD_03,image in image list,NA,Open website > click on featured product,NA,"Main images will  change on clicking 
+images from image list",As expected,Pass
+TC_PD_04,"list image up down button 
+visibility",NA,Open website > click on featured product,NA,Buttons should be visible on list ,As expected,Pass
+TC_PD_05,Brand name visibility,NA,Open website > click on featured product,NA,"Brand name must visible in Product 
+description",As expected,Pass
+TC_PD_06,Product full name visibility,NA,Open website > click on featured product,NA,Product full name must be visible,As expected,Pass
+TC_PD_07,Discount visibility,NA,Open website > click on featured product,NA,Discount percent must be visible,As expected,Pass
+TC_PD_08,Real Price visibility,NA,Open website > click on featured product,NA,"Real price must visible wiith horizontally
+cut",As expected,Pass
+TC_PD_09,Discounted price visibility,NA,Open website > click on featured product,NA,Discounted price must be visible,As expected,Pass
+TC_PD_10,Rating visibility,NA,Open website > click on featured product,NA,Ratings must be displayed in description,As expected,Pass
+TC_PD_11,Reviews Button visibility,NA,Open website > click on featured product,NA,"Reviews button must be visible with 
+number of reviews",As expected,Pass
+TC_PD_12,Size section visibility,NA,Open website > click on featured product,NA,Size sections must be visible,As expected,Pass
+TC_PD_13,Size selection ,NA,"Open website > click on featured product
+> select size",NA,Size will be selected ,As expected,Pass
+TC_PD_14,Add to bag button visiblility,NA,Open website > click on featured product,NA,Add to bag button must be visible,As expected,Pass
+TC_PD_15,Add to bag button clickable,NA,"Open website > click on featured product 
+> click on add to bag button ",NA,Product must be added to bag,As expected,Pass
+TC_PD_16,"Add to wishlist button 
+visibility",NA,"Open website > click on featured product 
+",NA,Wishlist button must be visible,As expected,Pass
+TC_PD_17,Wishlist button clickable,NA,"Open website > click on featured product 
+> click on add to wishlist button ",NA,Product must be added to wishlist,As expected,Pass
+TC_PD_18,Pincode input visible,NA,"Open website > click on featured product 
+",NA,Pincode input visible,As expected,Pass
+TC_PD_19,Pincode checking works,NA,"Open website > click on featured product 
+> Give pincode 
+",453441,"Pincode must be chcked and address 
+should be added",As expected,Pass
+TC_PD_20,Expected delivery section,NA,"Open website > click on featured product 
+> Give pincode 
+",NA,Expected delivery time must be visible,As expected,Pass
+TC_PD_21,"Product description section 
+visibility",NA,"Open website > click on featured product 
+",NA,Product description section must be visible,As expected,Pass
+TC_PD_22,Return policy section visibility,NA,"Open website > click on featured product 
+",NA,Return policy section must be visible,As expected,Pass
+TC_PD_23,Product reviews section,NA,"Open website > click on featured product 
+",NA,Product reviews section must be visible,As expected,Pass
+TC_PD_24,Brand review section ,NA,"Open website > click on featured product 
+",NA,Brand reviews section must be visible,As expected,Pass
+TC_PD_25,Ratings visibility,NA,"Open website > click on featured product 
+",NA,Product ratings must be visible,As expected,Pass
+TC_PD_26,Recommendation section,NA,"Open website > click on featured product 
+",NA,Recommendaion section must be visible,As expected,Pass
+TC_PD_27,Footer visibility,NA,"Open website > click on featured product 
+",NA,Footer section must be visible,As expected,Pass

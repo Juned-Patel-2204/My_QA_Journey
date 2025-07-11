@@ -1,0 +1,28 @@
+Bug ID,Reported Date,Module,Summary,Steps to Reproduce,Attachments,Expected Result,Actual Result,Status,Severity,Priority,Found Cycle ,Comments(Developer),Comments(QA)
+BUG_001,02-06-2025,Food Apk,"The image resolution of the homepage banner in the APK is poor.
+ There should always be validation for images when adding a banner image.",Open apk,,"There should be a proper resolution for
+ banner images",not as expected,open,low,high,,,
+BUG_002,02-06-2025,Food Apk,"When we first go to checkout and try to add an address, there is a 
+problem where we can't add it. However, after we return and attempt to
+ add the address again, it works fine.","Open apk > Go to cart >
+checkout > add address",,"The addresss should be added in first 
+attempt",not as expected,open,high,high,,,
+BUG_003,02-06-2025,Food Apk,"There is a popup issue: when we add an address without address line 2
+, the popup does not disappear after it appears.","Open apk > Go to cart >
+checkout > add address",,The popup should disappear,not as expected,open,low,high,,,
+BUG_004,02-06-2025,Food Apk,"When we add the donate food option and then add a tip for the delivery 
+partner, the donate food option is automatically unmarked.","Open apk > Go to cart >
+checkout > ",,"The donate option should not unmarked on 
+adding tip",not as expected,open,low,high,,,
+BUG_005,02-06-2025,Food Apk,"If we delete a single item from the cart, it shows the cart as empty, but 
+there are actually products still in it.","open apk> go to car t> 
+delete an item from cart",,"There should only be one product removed 
+from the cart, specifically the product that was 
+deleted.",not as expected,open,high,high,,,
+BUG_006,02-06-2025,Food Apk,"When we empty the cart directly from the cart page and then add items 
+from a different seller, a popup appears stating that the cart contains items
+ from different sellers. However, there are actually no items in the cart. We 
+need to click the ""Clear Cart"" option in the popup to proceed.","open apk> go to car t> 
+delete an item from cart",,The product must be added in cart,not as expected,open,high,high,,,
+BUG_007,02-06-2025,Food Apk,When we add address there is a issue of ui in apartment address visibility,"Open apk > Go to cart >
+checkout > add address",,The visibility should be better in address option,not as expected,open,low,low,,,

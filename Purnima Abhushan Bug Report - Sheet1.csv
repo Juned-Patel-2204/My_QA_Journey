@@ -1,0 +1,29 @@
+Bug ID,Reported Date,Module,Summary,Steps to Reproduce,Attachments,Expected Result,Actual Result,Status,Severity,Priority,Found Cycle ,Comments(Developer),Comments(QA)
+Bug_001,26/05/2025,Admin,"When we add new seller mobile number there 
+is validation issue for number length , number 
+must be of 10 digits ","Open website > login as admin
+>go to add new seller option> 
+enter details along with mobile 
+number",,"Mobile number validation
+ must work ",not as  expected,open,high,high,test_cycle_2,,
+BUG_002,26/05/2025,Sign in,There  is no option of skip for now in sign in,Open website > signup  ,,Skip for now option should be visible,not as expected,closed,low,high,test_cycle_2,,
+BUG_003,26/05/2025,Seller,"When adding a product without the required fields in the
+ seller section, a popup appears indicating that the 
+product has been added successfully; however, the
+ product is not actually added ","Open website > seller section
+> add product",,"If product added successfully popup 
+ is showing then product must be
+ added in list ",not as expected,open,high,high,test_cycle_2,,
+BUG_004,26/05/2025,Seller,"on adding products , products is not showing in product 
+section but showing in product catalogue section","Open website > seller section
+> add product",,Product should be added in product section,not as expected,closed,high,high,test_cycle_2,,
+BIG_005,27/05/2025,Seller,"When we add products and submit its description ,
+warning comes and when we click no then the product
+is added in Product catalogue","Open seller website > add product
+> submit > no",,Product should not be added ,not as expected,closed,high,high,test_cycle_2,,
+BUG_006,27/05/2025,User apk,"if there is an item in the cart and we add another item,
+ the new item is not added to the cart.","open user apk> add product 
+to cart> open cart",,Product should be added to cart,not as expected,closed,high,high,test_cycle_2,,
+BUG_007,27/05/2025,User apk,Order is not proceeding,open user> go to cart > checkout,,order must be proceed,not as expected,open,high,high,test_cycle_2,,
+BUG_008,28/05/20025,User apk,"The checkout process is not functioning correctly when 
+there are items from different sellers in the cart.",open user> go to cart > checkout,,checkout must works,not as expected,open,high,high,test_cycle_2,,
